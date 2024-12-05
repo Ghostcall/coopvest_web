@@ -1,0 +1,72 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    max-height: 50vh;
+    justify-content: space-between;
+    padding: 0 3rem;
+    position: sticky;
+    background: white;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    padding:1rem 0;
+}
+  .logo img{
+    width: 100%;
+    object-fit: cover;
+}
+.nav_link_container{
+    padding: 16px 0;
+    display: flex;
+}
+.nav_link_container ul{
+    display: flex;
+    list-style: none;
+}
+.nav_link_container ul li{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 2rem;
+    position: relative;
+}
+.nav_link_container ul li a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    align-items: center;
+    transition: all 0.3s ease-in-out 0s;
+}
+.nav_link_container ul li a:before{
+    content: '';
+    width: 0%;
+    height: 4px;
+    position: absolute;
+    top: 25px;
+    border-radius: 30px;
+    background:#09984b;
+    transition: all 0.4s ease-in-out 0s;
+}
+.nav_link_container ul li a:hover:before{
+    width: 100%;
+}
+.Contact-Us{
+    list-style: none;
+}
+.Contact-Us a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0 28px;
+    background:#09984b;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.Contact-Us a:hover{
+    transform: scale(top 1rem);
+}
