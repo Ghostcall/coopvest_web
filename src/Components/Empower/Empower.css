@@ -1,0 +1,46 @@
+ .empower{
+    display: flex;
+} 
+.empower-row{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: left;
+    padding: 14rem auto;
+    max-width:50%;
+    background: #11d06a
+}
+.empower-row h1{
+    color: white;
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.empower-row p{
+    margin: 0rem 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.empower-row button{
+    width:25%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    cursor:pointer;
+    color: #11D06A;
+}
+.empower-row button i{
+    margin-right: 0.5rem;
+}
+.empower-row button:hover{
+    transform: scale(1.1);
+}
+.empower-img img{
+    width: 50rem;
+    height: 70vh;
+}

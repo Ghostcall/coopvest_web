@@ -47,8 +47,8 @@ const whycoop = () => {
                           <i class="fa fa-arrow-right" aria-hidden="true"></i>
                            Contact Support
                         </button>
-
                     </div>
+                    <img src={customer} alt="" />
                 </div>
 
         </div>
