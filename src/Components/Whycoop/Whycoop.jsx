@@ -40,17 +40,17 @@ const whycoop = () => {
 
                 <div className="whycoop-wrapper-3">
                     <div className="whycoop-text-wrapper">
-                      <h3>Customer Support</h3>
-                      <p>We prioritize your needs and feedback, our dedicated customer support team is available around the clock to provide assistance and ensure a seamless user experience.</p>
-                     
-                      <button>
-                        <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                         Contact Support
-                      </button>
+                        <h3>Customer Support</h3>
+                        <p>We prioritize your needs and feedback, our dedicated customer support team is available around the clock to provide assistance and ensure a seamless user experience.</p>
+                      
+                        <button>
+                          <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                           Contact Support
+                        </button>
 
                     </div>
-                    <img src={customer} alt="" />
-                    </div>
+                </div>
+
         </div>
 
             
