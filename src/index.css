@@ -3,14 +3,16 @@
   padding:0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
 }
-.material-symbols-outlined {
+/* .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 24
-}
+} */
 
 body{
   width:100%;
