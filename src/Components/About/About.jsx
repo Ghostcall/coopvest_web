@@ -1,5 +1,5 @@
 import React from 'react'
-import './About Us.css'
+import './About.css'
 import first1 from '../../assets/coopvest_team_9.48461cb614a1c8b060e8.jpg'
 import second2 from '../../assets/coopvest_team_7.667d2e6fd1f801419b12.jpg'
 import third3 from '../../assets/coopvest_team_8.f59b68071c7a5caff16b.jpg'
@@ -8,7 +8,10 @@ import rent from '../../assets/rentshield.626c8c6bd6b780945a98.png'
 import efficiency from '../../assets/rentefficiency.7171c42188ae940f51ac.png'
 import news from '../../assets/rentnewness.c9adcfdbd60014c4596f.png'
 import tenacity from '../../assets/renttenacity.e5bc4743c7eed096c597.png'
-
+import logo1 from '../../assets/logo1.png'
+import logo2 from '../../assets/logo2.png'
+import logo3 from '../../assets/logo3.png'
+import logo4 from '../../assets/logo-horizon.png'
 const About = () => {
   return (
       <div className='about'>
@@ -28,13 +31,9 @@ const About = () => {
               </div>
 
               <div className="about-second-item">
-
-                  
                     <img src={second2} alt=""/>
-                  
-                  
-                    <img src={third3} alt="" />
-              </div>
+                    <img src={third3} alt="" /> 
+              </div>  
           </div>
 
 
@@ -43,9 +42,11 @@ const About = () => {
                 <h1>Our Mission</h1>
                 <p>At Coopvest Limited, we are on a mission of evolving to satisfy the financial wants and needs. Our commitment lies in providing accessible, user-friendly, and secure fintech solutions. By bridging the gap between traditional financial services and digital innovation, we empower both individuals and Cooperative societies to thrive financially. As we persistently innovate and adapt our strategies and technologies, our unwavering dedication to empowering our community remains at the forefront.</p>
               </div>
-
-              <img src="" alt="" />
           </div>
+          <div className="family_img">
+                <img src={forth} alt="" />
+          </div>
+          
 
           <div className="about-third-row">
               <div className="vision-row">
@@ -58,13 +59,13 @@ const About = () => {
                 <h1>Our Values</h1>
                     <div className="value-row-1">
                         <div className="value1">
-                            <img src="" alt="" />
+                            <img src={rent} alt="" />
                             <h3>Reliability</h3>
                             <p>At Coopvest, we understand the importance of a dependable banking partner. We are committed to providing a secure and stable platform for your financial needs. You can trust us to safeguard your information and transactions, giving you peace of mind and the confidence to manage your money effectively.</p>
                         </div>
                       
                         <div className="value2">
-                            <img src="" alt="" />
+                            <img src={efficiency} alt="" />
                             <h3>Efficiency</h3>
                             <p>We believe in making your financial life easier. Our user-friendly digital platform simplifies everyday banking tasks, allowing you to manage your finances effortlessly. Whether it's checking your balance, sending payments, or accessing account information, we empower you to get things done quickly and conveniently, freeing up your valuable time to focus on what matters most.</p>
                         </div>
@@ -73,13 +74,13 @@ const About = () => {
 
                     <div className="value-row-2">
                           <div className="value3">
-                              <img src="" alt="" />
+                              <img src={news} alt="" />
                               <h3>Newness</h3>
                               <p>The world of finance is constantly evolving, and we is dedicated to staying ahead of the curve. We embrace innovation by continuously seeking new and improved solutions to meet your ever-changing financial needs. We are committed to providing you with the latest tools and services to empower your financial journey and equip you for success in the ever-changing economic landscape.</p>
                           </div>
 
                           <div className="value4">
-                            <img src="" alt="" />
+                            <img src={tenacity} alt="" />
                             <h3>Tenacity</h3>
                             <p>Your financial well-being is our top priority. We are not just a bank; we are your partner in achieving your financial goals. We demonstrate unwavering commitment to your success by consistently exceeding your expectations and providing the support you need to navigate your financial journey with confidence. With us by your side, you can be sure of our unwavering dedication to helping you achieve your financial aspirations.</p>
                           </div>
@@ -89,11 +90,18 @@ const About = () => {
               <div className="slide-move">
                     <h2>Businesses that count on us</h2>
                     <div className="img-container">
-                      <img src="" alt="" />
-                      <img src="" alt="" />
-                      <img src="" alt="" />
-                      <img src="" alt="" />
-                      <img src="" alt="" />
+                      <img src={logo1} alt="" />
+                      <img src={logo2} alt="" />
+                      <img src={logo3} alt="" />
+                      <img src={logo4} alt="" className='horizon' />
+                      <img src={logo1} alt="" />
+                      <img src={logo2} alt="" />
+                      <img src={logo3} alt="" />
+                      <img src={logo4} alt="" className='horizon' />
+                      <img src={logo1} alt="" />
+                      <img src={logo2} alt="" />
+                      <img src={logo3} alt="" />
+                      <img src={logo4} alt="" className='horizon' />
                     </div>
               </div>
 
